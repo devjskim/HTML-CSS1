@@ -17,6 +17,7 @@
   margin-left: 40px;
 }
 
+
 .boxes a {
   margin-top: 40px;
   margin-bottom: 40px;
@@ -35,7 +36,7 @@
   margin-right: 14px;
 }
 
-a:hover {
+.boxes a:hover {
   border: 1px solid #454545;
   font-weight: bold;
 }
@@ -48,6 +49,7 @@ a:hover {
   width: 1000px;
   margin-left: 40px;
   padding-bottom: 30px;
+
 }
 
 .menus .t__menu{
@@ -62,17 +64,218 @@ a:hover {
   line-height: 46px;
   padding-left: 15px;
   background-color: #f7f7f7;
-}
 
+}
+.menus .b__menu div{
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
 .menus .b__menu{
   font-size: 12px;
-  color: #000;
+  color: #555;
   border: 1px solid #d1d1d1;
   width: 970px;
   margin-left: 40px;
   line-height: 72px;
   padding-left: 30px;
   margin-bottom: 30px;
+}
+
+.menus .b__menu .table1 .th{
+  background-color: #fbfbfb;
+  border: 1px solid #e4e4e4;
+  width: 90px;
+  height: 40px;
+  font-size: 12px;
+}
+
+.menus .b__menu .table1__body td{
+  text-align: center;
+  border: 1px solid #e4e4e4;
+  width: 90px;
+  height: 40px;
+}
+
+.menus .b__menu table{
+  margin-bottom: 40px;
+  width: 940px;
+}
+
+.menus .b__menu .table2 .th{
+  background-color: #fbfbfb;
+  border-top: 2px solid #a5a5a5;
+  border-bottom: : 1px solid #e4e4e4;
+  height: 40px;
+  font-size: 12px;
+}
+
+.menus .b__menu .table2__body td{
+  width: 90px;
+  font-size: 12px;
+  text-align: right;
+}
+
+.menus .b__menu .table2__body .a{
+  width: 90px;
+  font-size: 12px;
+  text-align: right;
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 1px solid #e4e4e4;
+  font-weight: bold;
+}
+
+/* form 부분 */
+.menus .b__menu .signup {
+  border: 1px solid #e4e4e4;
+  background-color: #fbfbfb;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  padding-left: 14px;
+  padding-right: 14px;
+  padding-top: 14px;
+  line-height: 40px;
+  padding-bottom: 14px;
+
+
+}
+
+.menus .b__menu .signup div{
+  font-size: 14px;
+  font-weight: bold;
+  color: #000;
+}
+.menus .b__menu .signup input{
+   width: 100%; padding: 5px 20px; margin-right: 14px; box-sizing: border-box;
+   font-size: 12px;
+   color: #000;
+   height: 30px;
+}
+
+.menus .b__menu .signup select{
+  width: 32%;
+  height: 30px;
+  display: inline-block;
+}
+
+.menus .b__menu .signup .month{
+  margin-left: 14px;
+  margin-right: 14px;
+}
+
+.menus .b__menu .signup .radio1 input {
+  display: inline-block;
+  padding-top: 0;
+  width: 12px;
+  font-size: 12px;
+}
+
+.menus .b__menu .signup .phone__num {
+  display: inline;
+}
+
+.menus .b__menu .signup .phone__num input{
+  width: 65%; padding: 5px 20px; margin-right: 14px; box-sizing: border-box;
+  font-size: 12px;
+  color: #000;
+  height: 30px;
+}
+
+.menus .b__menu .signup .phone__num button{
+  font-size: 12px;
+  color: #fff;
+  background-color: #4ec53d;
+  height: 30px;
+  border: 1px solid #08a600;
+  width: 33%;
+}
+
+.menus .b__menu .signup .hobby label {
+  margin-right: 66px;
+  font-size: 12px;
+  color: #000;
+}
+
+.menus .b__menu .signup .hobby input {
+  display: inline-block;
+  list-style: none;
+  padding-top: 0;
+  width: 20px;
+  padding-right: 40px;
+}
+
+.menus .b__menu .signup .submit__button{
+  border: 1px solid #08a600;
+  background-color: #4ec53d;
+  font-size: 16px;
+  color: #fff;
+}
+
+.menus .b__menu .contents__box{
+  border: 1px solid #e4e4e4;
+  margin-right: 40px;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-bottom: 20px;
+}
+
+.menus .b__menu .contents__box .subject{
+  text-align: center;
+  font-size: 32px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 20px;
+  padding: 0%;
+}
+
+
+.menus .b__menu .contents__box .cont__subject{
+  font-size: 14px;
+  color: #000;
+  font-weight: bold;
+  margin-bottom: 0%;
+  line-height: 0%;
+}
+
+.menus .b__menu .contents__box .cont__contents{
+  font-size: 12px;
+  color: #000;
+  margin-bottom: 0%;
+  line-height: 14px;
+  margin-bottom: 40px;
+}
+
+.menus .b__menu .search__result{
+  border: 1px solid #e4e4e4;
+  width: 200px;
+}
+
+.menus .b__menu .search__result .search__row{
+  margin-top: 0;
+  padding-left: 20px;
+  margin-bottom: 17px;
+}
+
+.menus .b__menu .search__result span{
+  font-size: 12px;
+  display: inline;
+  align-content: center;
+  margin-right: 20px;
+  margin-bottom: auto;
+}
+
+.menus .b__menu .search__result a{
+  height: 20px;
+  width: 150px;
+  align-content: center;
+  font-size: 12px;
+  margin-bottom: auto;
+}
+
+.menus .b__menu .search__result a:hover {
+  text-decoration: underline;
+  color: pink;
 }
 
 .footer {
